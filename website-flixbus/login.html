@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Flixbus - Travelreading</title>
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=latin-ext,cyrillic-ext" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/img/Flixbus-logo.svg"></a>
+
+        <form>
+            <input type="text" placeholder="zoek verhaal..">
+        </form>
+
+        <a href="login.html"> <img src="assets/img/slotje.svg"></a>
+    </header>
+
+    <main>
+        <section id="login">
+            <form>
+
+                <h2>Inloggen</h2>
+                <fieldset>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Emailadres" />
+                    <label>Wachtwoord</label>
+                    <input type="password" placeholder="Wachtwoord">
+                </fieldset>
+
+                <button type="submit"><a href="ingelogd.html"> Log in </a></button>
+
+
+                <h2>Nieuw account aanmaken</h2>
+                <fieldset>
+                    <label>Voornaam</label>
+                    <input type="text" placeholder="Voornaam">
+                    <label>Achternaam</label>
+                    <input type="text" placeholder="Achternaam">
+                    <label>Email</label>
+                    <input type="email" id="loginemail" autocomplete="on" required placeholder="E-mailadres">
+                    <label>Wachtwoord</label>
+                    <input type="password" required autocomplete="on" placeholder="Wachtwoord" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Moet minimaal 1 cijfer, 1 hoofletter en 1 kleine letter bevatten, en minstens 8 tekens lang zijn">
+                </fieldset>
+                <button type="submit" value="Maak aan">Maak aan</button>
+
+            </form>
+        </section>
+    </main>
+
+</body>   
+</html>    
